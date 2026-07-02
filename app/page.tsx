@@ -29,14 +29,20 @@ const projects = [
     name: "Townhall",
     description: "Hyperlocal social network for neighborhoods and communities",
     tags: ["Mobile", "App"],
-    year: "2024",
+    year: "2022",
   },
   {
     name: "Kyoshi",
-    description: "AI-pwered talent aquisition platform for companies and job seekers",
+    description: "AI-powered talent aquisition platform for companies and job seekers",
     tags: ["Web", "SaaS"],
     year: "2025",
   },
+  {
+    name: "Eggbot",
+    description: "An open-source, low-cost, desktop egg robot powered by ESP32",
+    tags: ["Hardware", "Robotics"],
+    year: "2023",
+  }
 ];
 
 export default function Home() {

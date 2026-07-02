@@ -25,9 +25,27 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
+      <head>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              (function () {
+                try {
+                  var stored = localStorage.getItem("theme");
+                  var isDark =
+                    stored === "dark" ||
+                    (!stored && window.matchMedia("(prefers-color-scheme: dark)").matches);
+                  document.documentElement.classList.toggle("dark", isDark);
+                } catch (e) {}
+              })();
+            `,
+          }}
+        />
+      </head>
       <body className={`${geistSans.variable} ${geistMono.variable} min-h-screen flex flex-col antialiased`}>
         <ThemeProvider>
           <div className="flex flex-col min-h-screen">
+            
             {children}
           </div>
         </ThemeProvider>
