@@ -21,7 +21,7 @@ export default function Header() {
       <div className="max-w-3xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-12">
           <Link href="/" className="text-sm font-medium tracking-tight">
-            BA
+            IDY
           </Link>
 
           <nav className="hidden sm:flex items-center gap-6">

@@ -23,34 +23,21 @@ const skills = [
 
 const projects = [
   {
-    name: "Inkle",
-    description: "Tiny e-commerce platform for small creators",
+    name: "Unair",
+    description: "This is descriction",
     tags: ["Web", "SaaS"],
     year: "2024",
-    link: "https://inkle.me",
+    link: "https://unair.ac.id",
   },
 
   {
-    name: "Kyoshi",
-    description: "AI-powered talent aquisition platform for companies and job seekers",
+    name: "UAD",
+    description: "This is descriction",
     tags: ["Web", "SaaS"],
     year: "2024",
-    link: "https://kyoshi.me",
+    link: "https://uad.ac.id",
   },
-  {
-    name: "Eggbot",
-    description: "An open-source, low-cost, desktop egg robot powered by ESP32",
-    tags: ["Hardware", "Robotics"],
-    year: "2023",
-    link: "",
-  },
-    {
-    name: "Townhall",
-    description: "Hyperlocal social network for neighborhoods and communities",
-    tags: ["Mobile", "App"],
-    year: "2022",
-    link: "https://townhall.ae",
-  },
+
 ];
 
 export default function Home() {
@@ -60,16 +47,16 @@ export default function Home() {
       <main className="flex-1 max-w-3xl mx-auto px-4 sm:px-6 py-12">
         <section className="space-y-8">
           <div>
-            <h1 className="text-2xl font-medium tracking-tight">Burhan Amjad</h1>
-            <p className="text-muted text-sm mt-1">Computer Scientist & Designer</p>
+            <h1 className="text-2xl font-medium tracking-tight">Idoyyy</h1>
+            <p className="text-muted text-sm mt-1">Ordinary person</p>
           </div>
 
           <p className="text-muted leading-relaxed max-w-xl">
-            Building hardware and software with an emphasis on functional engineering. Interested in software, robotics, rocketry and embedded systems.
+            THis is explaniation.
             <br />
             <br />
-            Currently working on <a href="https://inkle.me" className="hover:opacity-70 !text-pink-400 font-medium">
-              inkle.me
+            Currently working on <a href="https://www.binharmal.net/" className="hover:opacity-70 !text-pink-400 font-medium">
+              Binharmal.net
             </a>
           </p>
 
@@ -101,7 +88,7 @@ export default function Home() {
                 <span className="text-xs uppercase tracking-wider">Contact</span>
               </div>
               <a href="mailto:burhan@example.com" className="text-sm hover:opacity-70">
-                burhan@inkle.me
+                idoyygabut@gmail.com
               </a>
             </div>
             <div className="space-y-1">
@@ -111,7 +98,7 @@ export default function Home() {
               </div>
               <div className="flex gap-3 items-center mt-1">
             <a
-              href="https://github.com/azrael07"
+              href="https://github.com/fahjandho"
               target="_blank"
               rel="noopener noreferrer"
               className="text-sm hover:opacity-70"

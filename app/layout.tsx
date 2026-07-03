@@ -14,8 +14,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Burhan Amjad — Computer Scientist & Designer",
-  description: "Computer scientist & designer focused on functional software & hardware.",
+  title: "Idoy — Computer Scientist & Designer",
+  description: "This is explantnation.",
 };
 
 export default function RootLayout({
